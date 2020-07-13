@@ -12,7 +12,7 @@ background-color: #d6d6d6;
 }
 h1 {
     text-align: center;
-    color: black;
+    color: #132543;
 }
 h2{
 	float: right;
@@ -36,13 +36,23 @@ section {
   background-color: grey;
   overflow: auto;
 }
+.l1>h2{
+		background-color: #d33231;
+}
+.l2>h2{
+		background-color: #d213d1;
+}
+.l3>h2{
+		background-color: #b2c212;
+}
+
 @media (min-width: 992px) {
 	.col-lg-4{
 		float: left;
 		width: 33.33%;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6{
 		float: left;
 		width: 50%;
